@@ -46,7 +46,7 @@ public class MapSortByValue {
 		//Just convert to a Treemap to sort by key
 		Map<String, Integer> sortedByKeyMap = new TreeMap<String, Integer>(unsortedMap);
 
-		System.out.println("####################Sorted By Key Map##############");
+		System.out.println("###################Sorted By Key Map##############");
 		for (String key : sortedByKeyMap.keySet()) {
 			System.out.println(key + " : " + sortedByKeyMap.get(key));
 		}
