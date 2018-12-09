@@ -1,0 +1,5 @@
+package com.algorithm.constants;
+
+public enum SearchingType {
+LINEAR,BINARY,RECURSIVEBINARY, JUMP,INTERPOLATION,EXPONENTIAL,SUBLIST,FIBONACCI;
+}
