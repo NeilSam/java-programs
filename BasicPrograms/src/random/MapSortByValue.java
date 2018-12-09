@@ -14,8 +14,7 @@ import java.util.TreeMap;
 /**
  * 
  * @author Debnath Roy
- * @version 1.0
- * @
+ * @version 1.0 @
  *
  */
 class MapValueComparator implements Comparator<Entry<String, Integer>> {
@@ -42,25 +41,41 @@ public class MapSortByValue {
 		for (String key : unsortedMap.keySet()) {
 			System.out.println(key + " : " + unsortedMap.get(key));
 		}
-		
-		//GIT TEST
 
-		//Just convert to a Treemap to sort by key
+		// Just convert to a Treemap to sort by key
 		Map<String, Integer> sortedByKeyMap = new TreeMap<String, Integer>(unsortedMap);
 
 		System.out.println("###################Sorted By Key Map##############");
 		for (String key : sortedByKeyMap.keySet()) {
 			System.out.println(key + " : " + sortedByKeyMap.get(key));
 		}
-		
-		//To sort by Value, we need to get the values in a list and then sort the list
+
+		// To sort by Value, we need to get the values in a list and then sort
+		// the list
 		Set<Entry<String, Integer>> entries = unsortedMap.entrySet();
 		List<Entry<String, Integer>> entryList = new LinkedList<Map.Entry<String, Integer>>(entries);
-		Collections.sort(entryList, new MapValueComparator());//we need a comparator to sort
+		Collections.sort(entryList, new MapValueComparator());// we need a
+																// comparator to
+																// sort
 
-		Map<String, Integer> sortedByValueMap = new LinkedHashMap<String, Integer>();//LinkedHashMap required to retain the order the values are stored
+		Map<String, Integer> sortedByValueMap = new LinkedHashMap<String, Integer>();// LinkedHashMap
+																						// required
+																						// to
+																						// retain
+																						// the
+																						// order
+																						// the
+																						// values
+																						// are
+																						// stored
 		for (Entry<String, Integer> k1 : entryList) {
-			sortedByValueMap.put(k1.getKey(), k1.getValue());//the new LinkedHashMap is being populated in the order the valueset is sorted.
+			sortedByValueMap.put(k1.getKey(), k1.getValue());// the new
+																// LinkedHashMap
+																// is being
+																// populated in
+																// the order the
+																// valueset is
+																// sorted.
 		}
 
 		System.out.println("####################Sorted By Value Map##############");
