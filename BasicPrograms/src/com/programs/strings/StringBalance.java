@@ -1,4 +1,4 @@
-package random;
+package com.programs.strings;
 
 public class StringBalance {
 
@@ -36,9 +36,8 @@ public class StringBalance {
 	}
 
 	public static void main(String args[]) {
-		StringBalance sb = new StringBalance();
 		String s = "{)";
-		int x = sb.balancedStringOrNot(s);
+		int x = StringBalance.balancedStringOrNot(s);
 		System.out.println(x);
 	}
 

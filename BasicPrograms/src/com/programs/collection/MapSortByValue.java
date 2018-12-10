@@ -1,4 +1,4 @@
-package random;
+package com.programs.collection;
 
 import java.util.Collections;
 import java.util.Comparator;
