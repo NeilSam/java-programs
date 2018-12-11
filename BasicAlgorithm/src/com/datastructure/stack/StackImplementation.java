@@ -74,7 +74,7 @@ class arrayStack
 }
  
 /*  Class StackImplement  */
-public class Stack
+public class StackImplementation
 {
     public static void main(String[] args)
     {
