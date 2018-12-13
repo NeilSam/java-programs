@@ -20,6 +20,7 @@ public class SimpleStreamOperations {
         new Employee(3, "Mark Zuckerberg", 300000.0) };
 
     Stream<Employee> streamOfArray = Arrays.stream(arrayOfEmps);
+    streamOfArray.forEach(System.out::println);
 
     List<Employee> empList = Arrays.asList(arrayOfEmps);
 
@@ -237,16 +238,16 @@ public class SimpleStreamOperations {
     empList.stream()
         .parallel()
         .forEach(e -> e.salaryIncrement(10.0));
-    
+
     System.out.println("===========================");
 
     System.out.println("Infinite Stream");
 
     System.out.println("===========================");
-    
+
     Stream.generate(Math::random)
-    .limit(5)
-    .forEach(System.out::println);
+        .limit(5)
+        .forEach(System.out::println);
 
     System.out.println("===========================");
 
