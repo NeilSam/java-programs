@@ -53,8 +53,8 @@ public class _003_PolymorphicReference {
 		 * an explicit cast. For example, the following snippets of code will
 		 * not compile:
 		 */
-		  HasTail hasTail1 = lemur; 
-		  System.out.println(hasTail.age); // DOES NOT COMPILE
+		  HasTail hasTail1 = new Lemur(); 
+		  System.out.println(hasTail1.age); // DOES NOT COMPILE
 		   
 		  Primate primate1 = lemur;
 		  System.out.println(primate.isTailStriped()); // DOES NOT COMPILE

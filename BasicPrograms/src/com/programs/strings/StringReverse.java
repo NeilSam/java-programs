@@ -14,6 +14,7 @@ public class StringReverse {
 
 		for (int i = length - 1; i >= 0; i--)
 			reverse = reverse + original.charAt(i);
+		reverseRecursively(original);
 
 		System.out.println("Reverse of entered string is: " + reverse);
 		in.close();

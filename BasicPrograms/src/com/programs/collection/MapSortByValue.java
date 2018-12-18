@@ -10,6 +10,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.stream.Collectors;
 
 /**
  * 
@@ -57,6 +58,10 @@ public class MapSortByValue {
 		Collections.sort(entryList, new MapValueComparator());// we need a
 																// comparator to
 																// sort
+		List<Entry<String, Integer>>  sortedValueMap = entryList.stream()
+        .sorted((e1, e2) -> e1.getValue()
+            .compareTo(e2.getValue()))
+        .collect(Collectors.toList());
 
 		Map<String, Integer> sortedByValueMap = new LinkedHashMap<String, Integer>();// LinkedHashMap
 																						// required
@@ -79,8 +84,8 @@ public class MapSortByValue {
 		}
 
 		System.out.println("####################Sorted By Value Map##############");
-		for (String key : sortedByValueMap.keySet()) {
-			System.out.println(key + " : " + sortedByValueMap.get(key));
+		for (String key : sortedValueMap.keySet()) {
+			System.out.println(key + " : " + sortedValueMap.get(key));
 		}
 
 	}

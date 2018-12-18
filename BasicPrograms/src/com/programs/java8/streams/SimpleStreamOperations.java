@@ -202,6 +202,7 @@ public class SimpleStreamOperations {
     Double sumSal = empList.stream()
         .map(Employee::getSalary)
         .reduce(0.0, Double::sum);
+    
 
     System.out.println("===========================");
 

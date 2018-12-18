@@ -5,7 +5,7 @@ public class StringRotationCheck {
 		String s1 = "JavaJ2eeStrutsHibernate";
 
 		String s2 = "StrutsHibernateJavaJ2ee";
-
+		isRotated(s1, s2);
 		// Step 1
 
 		if (s1.length() != s2.length()) {
