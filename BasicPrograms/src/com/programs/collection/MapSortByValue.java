@@ -1,10 +1,8 @@
 package com.programs.collection;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -51,14 +49,29 @@ public class MapSortByValue {
 			System.out.println(key + " : " + sortedByKeyMap.get(key));
 		}
 
-		// To sort by Value, we need to get the values in a list and then sort
+		// To sort by Value, we need to get the values in a list/set and then sort
 		// the list
 		Set<Entry<String, Integer>> entries = unsortedMap.entrySet();
-		List<Entry<String, Integer>> entryList = new LinkedList<Map.Entry<String, Integer>>(entries);
-		Collections.sort(entryList, new MapValueComparator());// we need a
+		
+	
+		/* JAVA 7 WAY
+	Collections.sort(entries, new MapValueComparator());// we need a
 																// comparator to
 																// sort
-		List<Entry<String, Integer>>  sortedValueMap = entryList.stream()
+				for (Entry<String, Integer> k1 : entryList) {
+		sortedByValueMap.put(k1.getKey(), k1.getValue());// the new
+															// LinkedHashMap
+															// is being
+															// populated in
+															// the order the
+															// valueset is
+															// sorted.
+	}
+*/
+		
+		//JAVA 8 WAY
+		
+		List<Entry<String, Integer>>  sortedValueList = entries.stream()
         .sorted((e1, e2) -> e1.getValue()
             .compareTo(e2.getValue()))
         .collect(Collectors.toList());
@@ -73,19 +86,13 @@ public class MapSortByValue {
 																						// values
 																						// are
 																						// stored
-		for (Entry<String, Integer> k1 : entryList) {
-			sortedByValueMap.put(k1.getKey(), k1.getValue());// the new
-																// LinkedHashMap
-																// is being
-																// populated in
-																// the order the
-																// valueset is
-																// sorted.
-		}
+		
+		sortedValueList.forEach(element -> sortedByValueMap.put(element.getKey(), element.getValue()));
+		
 
 		System.out.println("####################Sorted By Value Map##############");
-		for (String key : sortedValueMap.keySet()) {
-			System.out.println(key + " : " + sortedValueMap.get(key));
+		for (String key : sortedByValueMap.keySet()) {
+			System.out.println(key + " : " + sortedByValueMap.get(key));
 		}
 
 	}
