@@ -1,4 +1,4 @@
-package com.parkinglot.vehicle;
+package com.project.parkinglot.vehicle;
 public class Car extends Vehicle {
 
     private int neededSpace = 2;

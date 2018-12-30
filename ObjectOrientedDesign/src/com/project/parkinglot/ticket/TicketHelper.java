@@ -1,12 +1,12 @@
 package com.project.parkinglot.ticket;
 
-import com.parkinglot.cost.BusCostCalculator;
-import com.parkinglot.cost.CarCostCalculator;
-import com.parkinglot.cost.CostCalculator;
-import com.parkinglot.vehicle.Bus;
-import com.parkinglot.vehicle.Car;
-import com.parkinglot.vehicle.Vehicle;
-import com.parkinglot.vehicle.VehicleTypes;
+import com.project.parkinglot.cost.BusCostCalculator;
+import com.project.parkinglot.cost.CarCostCalculator;
+import com.project.parkinglot.cost.CostCalculator;
+import com.project.parkinglot.vehicle.Bus;
+import com.project.parkinglot.vehicle.Car;
+import com.project.parkinglot.vehicle.Vehicle;
+import com.project.parkinglot.vehicle.VehicleTypes;
 
 public class TicketHelper {
 

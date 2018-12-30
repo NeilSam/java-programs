@@ -2,10 +2,10 @@ package com.project.parkinglot.ticket;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-import com.parkinglot.cost.CostCalculator;
-import com.parkinglot.inventory.Slot;
-import com.parkinglot.vehicle.Vehicle;
-import com.parkinglot.vehicle.VehicleTypes;
+import com.project.parkinglot.cost.CostCalculator;
+import com.project.parkinglot.inventory.Slot;
+import com.project.parkinglot.vehicle.Vehicle;
+import com.project.parkinglot.vehicle.VehicleTypes;
 
 public class Ticket {
 

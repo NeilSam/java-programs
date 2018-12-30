@@ -1,4 +1,4 @@
-package com.parkinglot.inventory;
+package com.project.parkinglot.inventory;
 public class Slot {
     private long slotNumber;
     private boolean isOccupied;

@@ -1,4 +1,4 @@
-package com.parkinglot.inventory;
+package com.project.parkinglot.inventory;
 
 import java.util.ArrayList;
 import java.util.List;

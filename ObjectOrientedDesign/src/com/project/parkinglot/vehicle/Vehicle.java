@@ -1,4 +1,4 @@
-package com.parkinglot.vehicle;
+package com.project.parkinglot.vehicle;
 public abstract class Vehicle {
     private String registerNumber;
 

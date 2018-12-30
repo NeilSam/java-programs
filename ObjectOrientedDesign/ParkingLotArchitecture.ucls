@@ -10,8 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="com.parkinglot.vehicle.Vehicle" project="ObjectOrientedDesign" 
-    file="/ObjectOrientedDesign/src/com/parkinglot/vehicle/Vehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="com.project.parkinglot.vehicle.Vehicle" project="ObjectOrientedDesign" 
+    file="/ObjectOrientedDesign/src/com/project/parkinglot/vehicle/Vehicle.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="137" width="176" x="430" y="663"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -29,8 +29,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="com.parkinglot.cost.BusCostCalculator" project="ObjectOrientedDesign" 
-    file="/ObjectOrientedDesign/src/com/parkinglot/cost/BusCostCalculator.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="com.project.parkinglot.cost.BusCostCalculator" project="ObjectOrientedDesign" 
+    file="/ObjectOrientedDesign/src/com/project/parkinglot/cost/BusCostCalculator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="101" width="153" x="56" y="432"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -38,8 +39,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="com.parkinglot.inventory.Slot" project="ObjectOrientedDesign" 
-    file="/ObjectOrientedDesign/src/com/parkinglot/inventory/Slot.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="com.project.parkinglot.inventory.Slot" project="ObjectOrientedDesign" 
+    file="/ObjectOrientedDesign/src/com/project/parkinglot/inventory/Slot.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="227" width="173" x="627" y="1020"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -47,8 +48,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="com.parkinglot.vehicle.Car" project="ObjectOrientedDesign" 
-    file="/ObjectOrientedDesign/src/com/parkinglot/vehicle/Car.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="com.project.parkinglot.vehicle.Car" project="ObjectOrientedDesign" 
+    file="/ObjectOrientedDesign/src/com/project/parkinglot/vehicle/Car.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="137" width="146" x="255" y="1020"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -56,8 +57,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="com.parkinglot.inventory.ParkingLot" project="ObjectOrientedDesign" 
-    file="/ObjectOrientedDesign/src/com/parkinglot/inventory/ParkingLot.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="7" language="java" name="com.project.parkinglot.inventory.ParkingLot" project="ObjectOrientedDesign" 
+    file="/ObjectOrientedDesign/src/com/project/parkinglot/inventory/ParkingLot.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="173" width="178" x="880" y="432"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -65,8 +67,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="8" language="java" name="com.parkinglot.cost.CostCalculator" project="ObjectOrientedDesign" 
-    file="/ObjectOrientedDesign/src/com/parkinglot/cost/CostCalculator.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="8" language="java" name="com.project.parkinglot.cost.CostCalculator" project="ObjectOrientedDesign" 
+    file="/ObjectOrientedDesign/src/com/project/parkinglot/cost/CostCalculator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="83" width="141" x="249" y="663"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -83,8 +86,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="com.parkinglot.cost.CarCostCalculator" project="ObjectOrientedDesign" 
-    file="/ObjectOrientedDesign/src/com/parkinglot/cost/CarCostCalculator.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="10" language="java" name="com.project.parkinglot.cost.CarCostCalculator" project="ObjectOrientedDesign" 
+    file="/ObjectOrientedDesign/src/com/project/parkinglot/cost/CarCostCalculator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="101" width="149" x="249" y="432"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -92,8 +96,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <enumeration id="11" language="java" name="com.parkinglot.vehicle.VehicleTypes" project="ObjectOrientedDesign" 
-    file="/ObjectOrientedDesign/src/com/parkinglot/vehicle/VehicleTypes.java" binary="false" corner="BOTTOM_RIGHT">    
+  <enumeration id="11" language="java" name="com.project.parkinglot.vehicle.VehicleTypes" project="ObjectOrientedDesign" 
+    file="/ObjectOrientedDesign/src/com/project/parkinglot/vehicle/VehicleTypes.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="137" width="175" x="241" y="147"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -111,8 +116,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="13" language="java" name="com.parkinglot.vehicle.Bus" project="ObjectOrientedDesign" 
-    file="/ObjectOrientedDesign/src/com/parkinglot/vehicle/Bus.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="13" language="java" name="com.project.parkinglot.vehicle.Bus" project="ObjectOrientedDesign" 
+    file="/ObjectOrientedDesign/src/com/project/parkinglot/vehicle/Bus.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="137" width="146" x="441" y="1020"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -120,8 +125,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="com.parkinglot.inventory.Floor" project="ObjectOrientedDesign" 
-    file="/ObjectOrientedDesign/src/com/parkinglot/inventory/Floor.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="14" language="java" name="com.project.parkinglot.inventory.Floor" project="ObjectOrientedDesign" 
+    file="/ObjectOrientedDesign/src/com/project/parkinglot/inventory/Floor.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="317" width="163" x="997" y="663"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      

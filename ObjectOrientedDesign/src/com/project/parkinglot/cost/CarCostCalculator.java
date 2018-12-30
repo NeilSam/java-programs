@@ -1,4 +1,4 @@
-package com.parkinglot.cost;
+package com.project.parkinglot.cost;
 public class CarCostCalculator implements CostCalculator {
     @Override    
     public double getCost(long inTime) {

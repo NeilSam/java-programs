@@ -5,10 +5,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
-import com.parkinglot.inventory.Floor;
-import com.parkinglot.inventory.ParkingLot;
-import com.parkinglot.inventory.Slot;
-import com.parkinglot.vehicle.VehicleTypes;
+import com.project.parkinglot.inventory.Floor;
+import com.project.parkinglot.inventory.ParkingLot;
+import com.project.parkinglot.inventory.Slot;
+import com.project.parkinglot.vehicle.VehicleTypes;
 import com.project.parkinglot.ticket.Ticket;
 
 public class Admin {
